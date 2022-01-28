@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lights out verbessert</title>
+    <link rel="stylesheet" type="text/css" href="Styles/css.css">
+    <script type="text/javascript" src="JavaScript/js.js"></script>
+</head>
+
+<body>
+<div id="container">
+    <h4> Lights off Spiel</h4>
+    <p id="instructions"><b> Wie wird gespielt:</b> Schalte alle Lichter auf dem Feld aus. Durch das druecken eines Knopfes wird das Licht, so wie die anliegenden Lichter an oder ausgeschaltet</p>
+
+    <div id="board"></div>
+    <p id="attempts"></p>
+
+    <div id="gamesetup">
+
+        <button id="restart">Neustarten</button>
+        <button id="newboard">Neues Spielfeld</button>
+
+        <form id="createGameForm">
+        <input placeholder="Breite" id="width"></input>
+        <input placeholder="Hoehe" id="height"></input>
+        <button type="submit">Spiel starten</button>
+        </form>
+
+    </div>
+
+</div>
+<form id="TheForm">
+    <input id="color" type="text" />
+    <br/>
+    <input id="submitColor" value="Submit" type="button" />
+</form>
+
+
+</body>
+</html>
